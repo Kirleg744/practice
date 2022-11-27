@@ -15,7 +15,7 @@ int main() {
         y *= function16variant(k);
     }
 
-    z = abs(12 * x - cos(y));
+    z = fabs(12 * x - cos(y));
 
     printf("x = %f\ny = %li\nz = %f", x, y, z);
 

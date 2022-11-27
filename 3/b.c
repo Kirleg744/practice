@@ -9,15 +9,15 @@ int main() {
     printf("Введіть тип виконаної роботи (A, B, C)\n");
     scanf("%c", choice);
     if (choice == 'A') {
-        y = 100 * abs(function12variant(i) + 50);
+        y = 100 * fabs(function12variant(i) + 50);
         taxes = y * 0.1;
     }
     else if (choice == 'B') {
-        y = 150 * abs(function13variant(i) + 100);
+        y = 150 * fabs(function13variant(i) + 100);
         taxes = y * 0.15;
     }
     else if (choice == 'C') {
-        y = 200 * abs(function14variant(i) + 135);
+        y = 200 * fabs(function14variant(i) + 135);
         taxes = y * 0.2;
     }
     printf("Зарахавано: %f\n", y);

@@ -9,8 +9,8 @@ int main() {
     printf("Введите x, a, b, c, d в такой последовательности\n");
     scanf("%f", x, a, b, c, d);
 
-    if (abs(x) < 10) {
-        float fi = tan(x + a) - log(abs(b + 7))/log(i);
+    if (fabs(x) < 10) {
+        float fi = tan(x + a) - log(fabs(b + 7))/log(i);
         y = function12variant(fi);
     }
     else if(abs(x) >= 10) {
